@@ -1,0 +1,50 @@
+:root {
+  --caro-h: 300px;
+  --caro-w: 800px;
+  --rw-h: calc(var(--caro-h) / 4);
+  /* uncommon name format until we isolate css variables */
+}
+
+.carousel {
+  height: var(--caro-h);
+  width: var(--caro-w);
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.315);
+}
+
+.row {
+  list-style-type: none;
+  position: absolute;
+  height: var(--rw-h);
+  display: flex;
+  white-space: nowrap;
+  transition-timing-function: ease-in-out;
+  background-color: red;
+}
+
+.row:nth-child(1) {
+  top: calc(var(--rw-h) * 0);
+}
+.row:nth-child(2) {
+  top: calc(var(--rw-h) * 1);
+}
+.row:nth-child(3) {
+  top: calc(var(--rw-h) * 2);
+}
+.row:nth-child(4) {
+  top: calc(var(--rw-h) * 3);
+}
+
+.row li {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.row li span {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: calc(var(--rw-h) * 0.8);
+  line-height: calc(var(--rw-h) * 0.8);
+}
