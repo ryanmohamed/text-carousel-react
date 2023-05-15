@@ -1,5 +1,5 @@
 # Text Carousel React 
-!(Example Image)[https://i.ibb.co/997kWBf/Screen-Shot-2023-05-15-at-12-38-45-AM.png]
+![Example Image](https://i.ibb.co/997kWBf/Screen-Shot-2023-05-15-at-12-38-45-AM.png)
 
 [![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vite-react/main)
 
