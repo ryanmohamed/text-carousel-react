@@ -2,7 +2,7 @@
 
 :root {
   --caro-h: 600px;
-  --caro-w: 800px;
+  --caro-w: 100vw;
   --rw-h: calc(var(--caro-h) / 4);
   /* uncommon name format until we isolate css variables */
 }
