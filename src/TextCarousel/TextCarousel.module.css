@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+
 :root {
-  --caro-h: 300px;
+  --caro-h: 600px;
   --caro-w: 800px;
   --rw-h: calc(var(--caro-h) / 4);
   /* uncommon name format until we isolate css variables */
@@ -9,8 +11,9 @@
   height: var(--caro-h);
   width: var(--caro-w);
   overflow: hidden;
-  position: relative;
   background-color: rgba(255, 255, 255, 0.315);
+  font-family: "Oranienbaum", serif;
+  opacity: 0.3;
 }
 
 .row {
@@ -19,8 +22,8 @@
   height: var(--rw-h);
   display: flex;
   white-space: nowrap;
-  transition-timing-function: ease-in-out;
-  background-color: red;
+  transition-timing-function: cubic-bezier(0.36, -1.65, 0.14, 1.05);
+  background-color: black;
 }
 
 .row:nth-child(1) {
@@ -39,12 +42,12 @@
 .row li {
   display: flex;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .row li span {
   text-transform: uppercase;
   white-space: nowrap;
-  font-size: calc(var(--rw-h) * 0.8);
-  line-height: calc(var(--rw-h) * 0.8);
+  font-size: calc(var(--rw-h) * 0.95);
+  line-height: calc(var(--rw-h) * 0.95);
 }

@@ -16,7 +16,7 @@ const Row = ({ values, duration, ...props }: RowProps) => {
     // apply transition to animate scroll
     containerRef?.current?.style?.setProperty(
       "transition",
-      `transform ${duration}ms`
+      `${duration * (firstItemWidth / 400)}ms`
     );
 
     // scroll

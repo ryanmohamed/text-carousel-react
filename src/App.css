@@ -1,0 +1,27 @@
+.landing {
+  width: var(--caro-w);
+  height: var(--caro-h);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.landing section:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.landing h1 {
+  z-index: 10;
+  position: relative;
+  font-family: "Helvetica";
+  font-size: 70px;
+  color: white;
+  text-shadow: 0 2px 10px #444444ff;
+  display: flex;
+}
