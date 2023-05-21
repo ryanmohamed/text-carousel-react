@@ -14,6 +14,7 @@
   background-color: rgba(255, 255, 255, 0.315);
   font-family: "Oranienbaum", serif;
   opacity: 0.3;
+  position: relative;
 }
 
 .row {
